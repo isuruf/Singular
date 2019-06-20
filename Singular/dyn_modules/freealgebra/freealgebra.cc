@@ -133,7 +133,7 @@ extern "C" int SI_MOD_INIT(freealgebra)(SModulFunctions* p)
   p->iiAddCproc("freealgebra.so","freeAlgebra",FALSE,freeAlgebra);
   p->iiAddCproc("freealgebra.so","lpLmDivides",FALSE,lpLmDivides);
   p->iiAddCproc("freealgebra.so","lpVarAt",FALSE,lpVarAt);
-  p->iiAddCproc("freealgebra.so","stest",TRUE,stest);
+  p->iiAddCproc("freealgebra.so","stest",FALSE,stest);
   p->iiAddCproc("freealgebra.so","btest",TRUE,btest);
 #endif
   return (MAX_TOK);
